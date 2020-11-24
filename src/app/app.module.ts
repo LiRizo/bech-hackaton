@@ -18,6 +18,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
 
 /*Components*/
+import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormIntroComponent } from './components/form-intro/form-intro.component';
 import { ChatbotComponent } from './components/chatbot/chatbot.component';
@@ -36,6 +37,7 @@ import { TrackingNumberComponent } from './components/tracking-number/tracking-n
     GifInfoComponent,
     NewRequestComponent,
     TrackingNumberComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
