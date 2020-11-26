@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./frequent-questions-all.component.css']
 })
 export class FrequentQuestionsAllComponent implements OnInit {
-
+  panelOpenState = false;
   constructor() { }
 
   ngOnInit(): void {
