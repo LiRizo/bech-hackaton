@@ -28,6 +28,9 @@ import { NewRequestComponent } from './components/new-request/new-request.compon
 import { TrackingNumberComponent } from './components/tracking-number/tracking-number.component';
 import { FrequentQuestionsAllComponent } from './components/frequent-questions-all/frequent-questions-all.component';
 import { HeaderNewRequestComponent } from './components/header-new-request/header-new-request.component';
+import { FollowUpRequestsComponent } from './components/follow-up-requests/follow-up-requests.component';
+import { FrequentQuestionsComponent } from './components/frequent-questions/frequent-questions.component';
+
 
 @NgModule({
   declarations: [
@@ -42,6 +45,9 @@ import { HeaderNewRequestComponent } from './components/header-new-request/heade
     HomeComponent,
     FrequentQuestionsAllComponent,
     HeaderNewRequestComponent,
+    FollowUpRequestsComponent,
+    FrequentQuestionsComponent,
+
   ],
   imports: [
     BrowserModule,
