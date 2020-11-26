@@ -27,6 +27,7 @@ import { GifInfoComponent } from './components/gif-info/gif-info.component';
 import { NewRequestComponent } from './components/new-request/new-request.component';
 import { TrackingNumberComponent } from './components/tracking-number/tracking-number.component';
 import { FollowUpRequestsComponent } from './components/follow-up-requests/follow-up-requests.component';
+import { FrequentQuestionsComponent } from './components/frequent-questions/frequent-questions.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { FollowUpRequestsComponent } from './components/follow-up-requests/follo
     TrackingNumberComponent,
     HomeComponent,
     FollowUpRequestsComponent,
+    FrequentQuestionsComponent,
   ],
   imports: [
     BrowserModule,
