@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "bech-hackaton"
+  "defaultProject": "bech-hackaton",
+  "cli": {
+    "analytics": "3d5e8201-d89d-4a79-9bf8-1d58ed0731bf"
+  }
 }

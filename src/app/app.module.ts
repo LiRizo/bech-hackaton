@@ -7,15 +7,18 @@ import { AppComponent } from './app.component';
 /*Styles */
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
+import { MatToolbarModule} from '@angular/material/toolbar';
+import { MatIconModule} from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
-import {MatCardModule} from '@angular/material/card';
-import {MatTableModule} from '@angular/material/table';
+import { MatMenuModule} from '@angular/material/menu';
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule} from '@angular/material/input';
+import { MatCardModule} from '@angular/material/card';
+import { MatTableModule} from '@angular/material/table';
+import { MatAutocompleteModule} from '@angular/material/autocomplete';
+import { MatExpansionModule} from '@angular/material/expansion';
+
 
 /*Components*/
 import { HomeComponent } from './components/home/home.component';
@@ -26,6 +29,11 @@ import { RequestsComponent } from './components/requests/requests.component';
 import { GifInfoComponent } from './components/gif-info/gif-info.component';
 import { NewRequestComponent } from './components/new-request/new-request.component';
 import { TrackingNumberComponent } from './components/tracking-number/tracking-number.component';
+import { FrequentQuestionsAllComponent } from './components/frequent-questions-all/frequent-questions-all.component';
+import { HeaderNewRequestComponent } from './components/header-new-request/header-new-request.component';
+import { FollowUpRequestsComponent } from './components/follow-up-requests/follow-up-requests.component';
+import { FrequentQuestionsComponent } from './components/frequent-questions/frequent-questions.component';
+
 
 @NgModule({
   declarations: [
@@ -38,6 +46,11 @@ import { TrackingNumberComponent } from './components/tracking-number/tracking-n
     NewRequestComponent,
     TrackingNumberComponent,
     HomeComponent,
+    FrequentQuestionsAllComponent,
+    HeaderNewRequestComponent,
+    FollowUpRequestsComponent,
+    FrequentQuestionsComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -52,6 +65,8 @@ import { TrackingNumberComponent } from './components/tracking-number/tracking-n
     MatInputModule,
     MatCardModule,
     MatTableModule,
+    MatAutocompleteModule,
+    MatExpansionModule,
     BrowserAnimationsModule
   ],
   providers: [],
