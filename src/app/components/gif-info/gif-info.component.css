@@ -1,0 +1,7 @@
+.gif-tutorial{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: -1;
+    margin: 0;
+}

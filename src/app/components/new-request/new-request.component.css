@@ -1,0 +1,21 @@
+.text-navbar {
+    justify-content: center;
+    text-align: center;
+}
+
+.input-line {
+    width: 663px;
+    height: 48px;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all .15s ease;
+    outline: none;
+    
+}
+
