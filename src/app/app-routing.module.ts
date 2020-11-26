@@ -13,8 +13,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'nuevasolicitud', component: NewRequestComponent },
   { path: 'seguimiento', component: TrackingNumberComponent },
-  { path: 'preguntasfrecuentesall', component: FrequentQuestionsAllComponent }
-  { path: 'estadosolicitud', component: FollowUpRequestsComponent }
+  { path: 'preguntasfrecuentesall', component: FrequentQuestionsAllComponent },
+  { path: 'estadosolicitud', component: FollowUpRequestsComponent },
   { path: 'preguntasfrecuentes', component: FrequentQuestionsComponent }
 ];
 
