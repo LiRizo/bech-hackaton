@@ -7,15 +7,18 @@ import { AppComponent } from './app.component';
 /*Styles */
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
+import { MatToolbarModule} from '@angular/material/toolbar';
+import { MatIconModule} from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
-import {MatCardModule} from '@angular/material/card';
-import {MatTableModule} from '@angular/material/table';
+import { MatMenuModule} from '@angular/material/menu';
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule} from '@angular/material/input';
+import { MatCardModule} from '@angular/material/card';
+import { MatTableModule} from '@angular/material/table';
+import { MatAutocompleteModule} from '@angular/material/autocomplete';
+import { MatExpansionModule} from '@angular/material/expansion';
+
 
 /*Components*/
 import { HomeComponent } from './components/home/home.component';
@@ -62,6 +65,8 @@ import { FrequentQuestionsComponent } from './components/frequent-questions/freq
     MatInputModule,
     MatCardModule,
     MatTableModule,
+    MatAutocompleteModule,
+    MatExpansionModule,
     BrowserAnimationsModule
   ],
   providers: [],
