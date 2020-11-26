@@ -26,6 +26,7 @@ import { RequestsComponent } from './components/requests/requests.component';
 import { GifInfoComponent } from './components/gif-info/gif-info.component';
 import { NewRequestComponent } from './components/new-request/new-request.component';
 import { TrackingNumberComponent } from './components/tracking-number/tracking-number.component';
+import { FollowUpRequestsComponent } from './components/follow-up-requests/follow-up-requests.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { TrackingNumberComponent } from './components/tracking-number/tracking-n
     NewRequestComponent,
     TrackingNumberComponent,
     HomeComponent,
+    FollowUpRequestsComponent,
   ],
   imports: [
     BrowserModule,
