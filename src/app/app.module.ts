@@ -29,7 +29,11 @@ import { RequestsComponent } from './components/requests/requests.component';
 import { GifInfoComponent } from './components/gif-info/gif-info.component';
 import { NewRequestComponent } from './components/new-request/new-request.component';
 import { TrackingNumberComponent } from './components/tracking-number/tracking-number.component';
+import { FrequentQuestionsAllComponent } from './components/frequent-questions-all/frequent-questions-all.component';
+import { HeaderNewRequestComponent } from './components/header-new-request/header-new-request.component';
+import { FollowUpRequestsComponent } from './components/follow-up-requests/follow-up-requests.component';
 import { FrequentQuestionsComponent } from './components/frequent-questions/frequent-questions.component';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +46,11 @@ import { FrequentQuestionsComponent } from './components/frequent-questions/freq
     NewRequestComponent,
     TrackingNumberComponent,
     HomeComponent,
+    FrequentQuestionsAllComponent,
+    HeaderNewRequestComponent,
+    FollowUpRequestsComponent,
     FrequentQuestionsComponent,
+
   ],
   imports: [
     BrowserModule,
