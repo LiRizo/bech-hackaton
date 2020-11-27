@@ -1,19 +1,39 @@
 <div class="gif-tutorial">
   <img src="../../../assets/img/vector-background.png" alt="" />
 </div>
-<div class="d-flex flex-column align-items-center justify-content-center" style="height: 75vh;">
-    <h2>Consultar solicitud</h2>
+<app-header-new-request></app-header-new-request>
+<div class="container-fluid">
+  <div class="d-flex row">
     <div>
-        <div>
-            <h3>Ingresa el n° de tu solicitud</h3>
-        </div>
-      </div>
-      <div>
-        <label>
-          <input list="requestsNumbers" name="requests"  (change)="navigateTo($event.target.value)" placeholder="Ingresa el n° de tu solicitud" /></label>
-          <datalist id="requestsNumbers">
-            <option>165168151SDSD</option>
-            <option value="123410257EFFA">123410257EFFA</option>
-          </datalist>
+      <button class="back btn" routerLink="/home">
+        <img class="mr-2" src="../../../assets/img/volver.svg" alt="" />volver
+      </button>
     </div>
+    <div class="text-navbar">
+      <h2>Consultar solicitud</h2>
+    </div>
+  </div>
+  <div
+    class="d-flex flex-column align-items-center justify-content-center"
+    style="height: 55vh"
+  >
+    <div class="text-tracking">
+      <h4>Ingresa el n° de tu solicitud</h4>
+    </div>
+    <div>
+      <label>
+        <input
+          list="requestsNumbers"
+          name="requests"
+          (change)="navigateTo($event.target.value)"
+          placeholder="Ingresa el n° de tu solicitud"
+          class="input-line"
+      /></label>
+      <datalist id="requestsNumbers">
+        <option>165168151SDSD</option>
+        <option value="123410257EFFA">123410257EFFA</option>
+      </datalist>
+    </div>
+  </div>
+  <app-chatbot></app-chatbot>
 </div>

@@ -4,3 +4,31 @@
     z-index: -10;
     margin: 0;
   }
+
+  .text-navbar {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .back {
+    margin-left: 10px;
+    font-family: "Lato", sans-serif;
+    size: 15px;
+    color: #000000;
+    margin-right: 430px;
+  }
+
+  .input-line {
+    width: 663px;
+    height: 48px;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    background: none;
+    border-radius: 0;
+    color: #000000;
+    transition: all 0.15s ease;
+    outline: none;
+  }
