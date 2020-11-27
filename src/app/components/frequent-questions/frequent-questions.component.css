@@ -8,3 +8,9 @@
 margin: auto;
 margin-bottom: 1rem;
 }
+
+mat-accordion,
+mat-expansion-panel,
+.header-faq {
+  background: #fbfbfb;
+}

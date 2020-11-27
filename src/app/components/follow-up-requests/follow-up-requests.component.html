@@ -1,29 +1,41 @@
-<div class="d-flex flex-column align-items-center justify-content-center" style="height: 75vh;">
-    <h2>Consultar solicitud</h2>
+<div class="d-flex flex-column align-items-center justify-content-center" style="height: 75vh; width: 100vw;">
+    <h3 class="mt-3" >Consultar solicitud</h3>
     <div>
-        <div>
-            <h3>La solicitud n° 1518ASB se encuentra en estado NOMBRE ESTADO ACTUAL</h3>
+        <div class="mt-3">
+            <p>La solicitud n° 1518ASB se encuentra en estado NOMBRE ESTADO ACTUAL</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row mt-5">
         <div class="col">
-            <img src="" alt="icono">
-            <p>Nombre estado</p>
+            <img src="../../../assets/icons/EstadoP.svg" alt="icono">
+            <p>Pendiente de envío</p>
+        </div>
+        <div class="my-auto">
+          <i class="fas fa-arrow-right"></i>
         </div>
         <div class="col">
-            <img src="" alt="icono">
-            <p>Nombre estado</p>
+            <img src="../../../assets/icons/estadoenR.svg" height="100px" alt="icono">
+            <p>Derivado a resolutor</p>
         </div>
-        <div class="col">
-            <img src="" alt="icono">
-            <p>Nombre estado</p>
+        <div class="my-auto">
+          <i class="fas fa-arrow-right"></i>
         </div>
+
         <div class="col">
-            <img src="" alt="icono">
-            <p>Nombre estado</p>
-        </div>      
+            <img src="../../../assets/icons/observacion.svg" alt="icono">
+            <p>En observación</p>
+        </div>
+        <div class="my-auto">
+          <i class="fas fa-arrow-right"></i>
+        </div>
+
+        <div class="col">
+            <img src="../../../assets/icons/Finalizado.svg" alt="icono">
+            <p>Finalizado</p>
+        </div>
     </div>
-    <button class="btn btn-primary" (click)="navigateTo()">Volver a consultar</button>
+    <button class="btn btn-request mt-5" (click)="navigateTo()">Volver a consultar</button>
+
 </div>
 
 <!-- No se ve el icono por alguna razón cósmica, lo siento
