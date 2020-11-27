@@ -1,17 +1,17 @@
+<app-navbar></app-navbar>
 <div class="container-fluid">
-
-  <div class="d-flex row">
+  <div class="d-flex row my-5">
     <div class="back-btn">
       <button class="back btn" href="/">
-        <img class="mr-2" src="../../../assets/img/volver.svg" alt="">volver
+        <img class="mr-2" src="../../../assets/img/volver.svg" alt="" />volver
       </button>
     </div>
     <div class="d-flex title-text">
-      <h1 class="text-center">Preguntas Frecuentes</h1>
+      <h2 class="text-center">Preguntas Frecuentes</h2>
     </div>
   </div>
   <div class="d-flex justify-content-around row">
-    <div class="col" style="width: 30%">
+    <div class="col" style="max-width: 30%">
       <div class="">
         <mat-accordion>
           <mat-expansion-panel
@@ -20,7 +20,7 @@
             (closed)="panelOpenState = false"
           >
             <mat-expansion-panel-header>
-              <mat-panel-title> Estudio sociedades </mat-panel-title>
+              <mat-panel-title class="h3"> Estudio sociedades </mat-panel-title>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
@@ -34,7 +34,29 @@
             (closed)="panelOpenState = false"
           >
             <mat-expansion-panel-header>
-              <mat-panel-title> Self aware panel </mat-panel-title>
+              <mat-panel-title class="h3"> Estudios por materia </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="list-group">
+              <a class="sub-title-menu" href="">Informe de confirming electrónico</a>
+              <a class="sub-title-menu" href="">Quiebra</a>
+              <a class="sub-title-menu" href="">Extravío, hurto y robo de cheques</a>
+              <a class="sub-title-menu" href="">Extravío títulos de crédito</a>
+              <a class="sub-title-menu" href="">Cambio de nombre</a>
+              <a class="sub-title-menu" href="">Fallecimiento titular producto</a>
+              <a class="sub-title-menu" href="">Cancelación cuenta de ahorro</a>
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+      <div>
+        <mat-accordion>
+          <mat-expansion-panel
+            class="w-80"
+            (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title class="h3"> Mandatos </mat-panel-title>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
@@ -48,48 +70,33 @@
             (closed)="panelOpenState = false"
           >
             <mat-expansion-panel-header>
-              <mat-panel-title> Self aware panel </mat-panel-title>
-            </mat-expansion-panel-header>
-            <p>I'm visible because I am open</p>
-          </mat-expansion-panel>
-        </mat-accordion>
-      </div>
-      <div>
-        <mat-accordion>
-          <mat-expansion-panel
-            class="w-80"
-            (opened)="panelOpenState = true"
-            (closed)="panelOpenState = false"
-          >
-            <mat-expansion-panel-header>
-              <mat-panel-title> Self aware panel </mat-panel-title>
+              <mat-panel-title class="h3"> Estudio poderes PJ </mat-panel-title>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
         </mat-accordion>
       </div>
     </div>
-    <div style="width: 15%;">
-
-    </div>
-    <div class="" style="width: 55%;">
+    <div class="" style="max-width: 50%">
       <div class="d-flex row align-items-center">
-        <div>
+        <div class="mr-5">
           <h4>Subgerencia Legal Operativa</h4>
           <hr />
         </div>
-        <button class="btn btn-warning btn-request">Crear requerimiento</button>
+        <button class="btn btn-request mb-4">Crear requerimiento</button>
       </div>
-      <mat-accordion class="p-1">
+      <mat-accordion class="pt-1">
         <mat-expansion-panel
           class="w-80"
           (opened)="panelOpenState = true"
           (closed)="panelOpenState = false"
         >
-          <mat-expansion-panel-header>
-            <mat-panel-title> Self aware panel </mat-panel-title>
+          <mat-expansion-panel-header class="header-faq">
+            <mat-panel-title class="title-faq">
+              Cliente quiere hablar con un abogado ¿Qué hago?
+            </mat-panel-title>
           </mat-expansion-panel-header>
-          <p>I'm visible because I am open</p>
+          <p class="request-text">I'm visible because I am open</p>
         </mat-expansion-panel>
       </mat-accordion>
       <div>
@@ -99,54 +106,86 @@
             (opened)="panelOpenState = true"
             (closed)="panelOpenState = false"
           >
-            <mat-expansion-panel-header>
-              <mat-panel-title> Self aware panel </mat-panel-title>
+            <mat-expansion-panel-header class="header-faq">
+              <mat-panel-title class="title-faq">
+                ¿Qué sucede si el cliente extravía un título de crédito de
+                dinero?
+              </mat-panel-title>
             </mat-expansion-panel-header>
-            <p>I'm visible because I am open</p>
+            <p class="request-text">
+              Para estos efectos, por títulos de crédito de dinero se entenderán
+              los Depósitos a Plazo, Vales a la Vista, Pagarés, Letras de Cambio
+              y cualesquiera otro título emitido con la cláusula "a la orden",
+              "en favor de" u otra equivalente. En los casos de extravío,
+              pérdida o deterioro parcial de un título de crédito de dinero, el
+              portador puede solicitar, judicialmente, que se declare tal
+              circunstancia y que se le autorice para ejercer los derechos que
+              le correspondan. La copia autorizada de la sentencia judicial que
+              acoja la solicitud reemplazará el documento extraviado o
+              deteriorado y produce, respecto del Banco y terceros, los mismos
+              efectos que los derivados del ejemplar auténtico. Al Banco se
+              deberá acompañar una copia autorizada de la sentencia judicial que
+              acoge la solicitud de reemplazo del documento con certificado del
+              tribunal de encontrarse ejecutoriada (no debe aceptarse fotocopia,
+              aunque estuviere autorizada por Notario Público), más una
+              fotocopia de la cédula de quien efectúa la solicitud, estos
+              antecedentes deben ser enviados a Fiscalía para su
+              pronunciamiento. Las instrucciones precedentes NO se aplican en el
+              caso de extravío, hurto o robo de cheques, puesto que para tales
+              documentos existe norma especial. Si el vale vista es nominativo,
+              los jefes están facultados para ordenar, bajo su exclusiva
+              responsabilidad, la extensión de duplicados de vales a la vista
+              por extravío del original hasta por la suma de 5 UTM, vigentes a
+              la fecha de la solicitud, siendo privativo de la Subgerencia
+              Procesos de Cuentas, el autorizar la extensión de duplicados por
+              montos superiores a dicha cantidad. Para emitir estos duplicados
+              deberán solicitar:
+            </p>
+
+            <ul>
+              <li>
+                Solicitud firmada ante notario por el propio tomador del Vale a
+                la Vista y por el beneficiario o en subsidio, una carta suscrita
+                por el beneficiario con el mismo propósito.
+              </li>
+              <li>
+                Tres Avisos publicados durante tres días consecutivos en uno de
+                los periódicos de mayor circulación en la localidad, dando
+                cuenta del extravío del documento.
+              </li>
+              <li>Hoja informativa y Estado de Solvencia del Beneficiario.</li>
+              <li>
+                Informe general de la Sucursal respecto de la solicitud que se
+                somete a resolución de su superior.
+              </li>
+            </ul>
+
+            <p>
+              En caso que el extravío, hurto o robo de un cheque se hubiere
+              producido en dependencias de Banco, a raíz de haberse recibido en
+              depósito, canje o por cualquiera otra circunstancia, sea del
+              propio Banco o de otra empresa bancaria, debe tenerse presente que
+              respecto de tal cheque el Banco pasa a tener la calidad de
+              portador del mismo. Por lo tanto está obligado a practicar las
+              diligencias antes mencionadas, con la salvedad que no corresponde,
+              en este caso, dar el aviso indicado si el librado es el propio
+              Banco, bastando con suspender el pago por el plazo expresado, sin
+              perjuicio de cumplir con las demás exigencias ya citadas. Es
+              importante tener en cuenta que el otorgamiento de duplicados
+              expone al Banco a un doble pago, ya que la ley no contempla la
+              anulación del documento original. Por lo tanto, con el objeto de
+              resguardar los intereses del Banco, el interesado deberá presentar
+              “garantía Hipotecaría” o de Fianza, acompañando, en este último
+              caso una hoja informativa del fiador
+            </p>
           </mat-expansion-panel>
         </mat-accordion>
       </div>
-      <div>
-        <mat-accordion class="p-1">
-          <mat-expansion-panel
-            class="w-80"
-            (opened)="panelOpenState = true"
-            (closed)="panelOpenState = false"
-          >
-            <mat-expansion-panel-header>
-              <mat-panel-title> Self aware panel </mat-panel-title>
-            </mat-expansion-panel-header>
-            <p>I'm visible because I am open</p>
-          </mat-expansion-panel>
-        </mat-accordion>
-      </div>
-      <div>
-        <mat-accordion class="p-1">
-          <mat-expansion-panel
-            class="w-80"
-            (opened)="panelOpenState = true"
-            (closed)="panelOpenState = false"
-          >
-            <mat-expansion-panel-header>
-              <mat-panel-title> Self aware panel </mat-panel-title>
-            </mat-expansion-panel-header>
-            <p>I'm visible because I am open</p>
-          </mat-expansion-panel>
-        </mat-accordion>
-      </div>
-      <div>
-        <mat-accordion class="p-1">
-          <mat-expansion-panel
-            class="w-80"
-            (opened)="panelOpenState = true"
-            (closed)="panelOpenState = false"
-          >
-            <mat-expansion-panel-header>
-              <mat-panel-title> Self aware panel </mat-panel-title>
-            </mat-expansion-panel-header>
-            <p>I'm visible because I am open</p>
-          </mat-expansion-panel>
-        </mat-accordion>
+      <div class="row question-like">
+        <p class="pt-3">¿Te sirvió de ayuda?</p>
+        <button class="btn"><img src="../../../assets/icons/like.svg" alt="" width="25px"></button>
+        <img src="../../../assets/icons/line.svg" alt="" width="25px" height="39px">
+        <button class="btn"><img src="../../../assets/icons/dislike.svg" alt="" width="25px"></button>
       </div>
     </div>
   </div>

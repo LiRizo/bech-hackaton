@@ -5,6 +5,8 @@
 .btn-request {
   background: #f5811f;
   border-radius: 30px;
+  margin-left: 110px;
+  color: #FBFBFB;
 }
 
 .back-btn {
@@ -23,5 +25,43 @@
 }
 
 hr {
-  border: 0.5px solid #F5811F;
+  border: 0.5px solid #f5811f;
+}
+
+.header-faq {
+  border-radius: 10px;
+}
+
+mat-accordion,
+mat-expansion-panel,
+.header-faq {
+  background: #fbfbfb;
+}
+
+.request-text {
+  font-family: "Lato", sans-serif;
+  size: 18px;
+  font-weight: 400;
+}
+
+.title-faq {
+  font-family: "Lato", sans-serif;
+  size: 18px;
+  font-weight: 700;
+}
+
+.h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.sub-title-menu {
+  color: #000000;
+  margin-top: 24px;
+}
+
+.question-like {
+  display: flex;
+  align-items: center;
 }
