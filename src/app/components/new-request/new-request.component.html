@@ -1,19 +1,21 @@
 <app-header-new-request></app-header-new-request>
 <div class="container-fluid">
-  <div class="text-navbar">
-    <h2>Nueva Solicitud</h2>
-    <div class="text-navbar">
-      <a class="category" href="">Categoría</a>
-      <span>></span>
-      <a class="category" href="">Subcategoría</a>
-      <span>></span>
-      <a class="category" href="">Subcategoría2</a>
+  <div class="d-flex row">
+    <div>
+      <button class="back btn" href="/">
+        <img class="mr-2" src="../../../assets/img/volver.svg" alt="">volver
+      </button>
     </div>
-  </div>
-  <div>
-    <button class="back btn" href="/">
-      <img class="mr-2" src="../../../assets/img/volver.svg" alt="">volver
-    </button>
+    <div class="text-navbar">
+      <h2>Nueva Solicitud</h2>
+      <div class="text-navbar">
+        <a class="category" href="">Categoría</a>
+        <span>></span>
+        <a class="category" href="">Subcategoría</a>
+        <span>></span>
+        <a class="category" href="">Subcategoría2</a>
+      </div>
+    </div>
   </div>
   <div
     class="d-flex flex-column align-items-center justify-content-center"
@@ -41,22 +43,20 @@
     <div>
       <label>
         <input
-          list="browsers"
+          list="category"
           name="myBrowser"
           placeholder="Escribe o selecciona una opción"
           class="input-line"
       /></label>
-      <datalist id="browsers">
-        <option value="Chrome"></option>
-        <option value="Firefox"></option>
-        <option value="Internet Explorer"></option>
-        <option value="Opera"></option>
-        <option value="Safari"></option>
-        <option value="Microsoft Edge"></option>
+      <datalist id="category">
+        <option value="Juntas de vecinos"></option>
+        <option value="Soc. colectiva y civil"></option>
+        <option value="Otras organizaciones funcionales"></option>
+        <option value="Cambio de nombre"></option>
       </datalist>
     </div>
   </div>
-  <div class="d-flex align-items-end">
+  <div class="d-flex align-items-end" style="height: 20vh;">
     <div class="col-3">
       <div>
         <p>0 de 12 respondidas</p>

@@ -1,22 +1,41 @@
-<div class="p-1">
-<div class="col-5 mt-3">
-<!--Texto introductorio -->
-<h2>¡Hola! Aquí puedes hacer tus solicitudes y buscarlas</h2>
-</div>
-<!--Indicaciones -->
-<div class="col-6 mt-5">
-  <h5>Lograras encontrar las solicitudes ingresando el número o viendo las diferentes categorias de cada una de las mismas</h5>
-</div>
-</div>
 
-<!--Texto introductorio -->
-<form class="form-inline">
-  <div class="form-group mx-sm-3 mb-2">
-    <label for="input" class="sr-only">Escribe aquí</label>
-    <input type="form" class="form-control search-request-s" id="input" style="width: 30rem;" placeholder="Escribe aquí">
+<div class="container-fluid">
+  <div class="p-1">
+    <div class="col-5 mt-3">
+      <!--Texto introductorio -->
+      <h2>¡Hola! Aquí puedes hacer tus solicitudes y buscarlas</h2>
+    </div>
+    <!--Indicaciones -->
+    <div class="col-6 mt-5">
+      <h3>
+        Lograras buscar las solicitudes ingresando el número o viendo las
+        diferentes categorias de cada una de las mismas
+      </h3>
+    </div>
   </div>
 
-<button type="submit" class="btn mb-2 search-request-s" style="background: #F5811F; color: #f7f7f7;" (click)="navigateTo()">Continuar</button>
-</form>
+  <!--Texto introductorio -->
+  <form class="form-inline">
+    <div class="form-group mx-sm-3 mb-2">
+      <label for="input" class="sr-only">Escribe aquí</label>
+      <input
+        type="form"
+        class="form-control search-request-s"
+        id="input"
+        style="width: 30rem"
+        placeholder="Escribe aquí"
+      />
+    </div>
 
-<a class="ml-3" routerLink="/seguimiento">Buscar por n° de seguimiento</a>
+    <button
+      type="submit"
+      class="btn mb-2 search-request-s"
+      style="background: #f5811f; color: #f7f7f7"
+      (click)="navigateTo()"
+    >
+      Continuar
+    </button>
+  </form>
+
+  <a class="ml-3" routerLink="/seguimiento">Buscar por n° de seguimiento</a>
+</div>
