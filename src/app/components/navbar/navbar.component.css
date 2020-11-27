@@ -1,7 +1,7 @@
 .nav-icon {
-    width: 209px;
-    height: 72px;
     margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .nav-link {
@@ -11,7 +11,7 @@
     font-size: 18px;
     line-height: 21px;
     align-items: flex-start;
-
+margin: 0;
 }
 
 nav {
