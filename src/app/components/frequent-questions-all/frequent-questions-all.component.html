@@ -1,31 +1,17 @@
 <div class="container-fluid">
-  <div class="row">
-    <div>
-      <a href="/"><i class="fa fa-arrow-alt-circle-left"></i>Volver</a>
+  <div class="d-flex row">
+    <div class="back-btn">
+      <button class="back btn" href="/">
+        <img class="mr-2" src="../../../assets/img/volver.svg" alt="">volver
+      </button>
     </div>
-    <div>
-      <h1>Preguntas Frecuentes</h1>
+    <div class="d-flex title-text">
+      <h1 class="text-center">Preguntas Frecuentes</h1>
     </div>
   </div>
   <div class="d-flex justify-content-around row">
-    <div class="column">
-      <div></div>
-      <mat-accordion>
-        <mat-expansion-panel
-          class="w-80"
-          (opened)="panelOpenState = true"
-          (closed)="panelOpenState = false"
-        >
-          <mat-expansion-panel-header>
-            <mat-panel-title> Self aware panel </mat-panel-title>
-            <mat-panel-description>
-              Currently I am {{ panelOpenState ? "open" : "closed" }}
-            </mat-panel-description>
-          </mat-expansion-panel-header>
-          <p>I'm visible because I am open</p>
-        </mat-expansion-panel>
-      </mat-accordion>
-      <div>
+    <div class="col" style="width: 30%">
+      <div class="">
         <mat-accordion>
           <mat-expansion-panel
             class="w-80"
@@ -33,10 +19,7 @@
             (closed)="panelOpenState = false"
           >
             <mat-expansion-panel-header>
-              <mat-panel-title> Self aware panel </mat-panel-title>
-              <mat-panel-description>
-                Currently I am {{ panelOpenState ? "open" : "closed" }}
-              </mat-panel-description>
+              <mat-panel-title> Estudio sociedades </mat-panel-title>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
@@ -51,9 +34,6 @@
           >
             <mat-expansion-panel-header>
               <mat-panel-title> Self aware panel </mat-panel-title>
-              <mat-panel-description>
-                Currently I am {{ panelOpenState ? "open" : "closed" }}
-              </mat-panel-description>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
@@ -68,20 +48,36 @@
           >
             <mat-expansion-panel-header>
               <mat-panel-title> Self aware panel </mat-panel-title>
-              <mat-panel-description>
-                Currently I am {{ panelOpenState ? "open" : "closed" }}
-              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>I'm visible because I am open</p>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </div>
+      <div>
+        <mat-accordion>
+          <mat-expansion-panel
+            class="w-80"
+            (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false"
+          >
+            <mat-expansion-panel-header>
+              <mat-panel-title> Self aware panel </mat-panel-title>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
         </mat-accordion>
       </div>
     </div>
-    <div>
+    <div style="width: 15%;">
+
+    </div>
+    <div class="" style="width: 55%;">
       <div class="d-flex row align-items-center">
-        <h4>Subgerencia Legal Operativa</h4>
-        <button class="btn btn-warning">crear requerimiento
-        </button>
+        <div>
+          <h4>Subgerencia Legal Operativa</h4>
+          <hr />
+        </div>
+        <button class="btn btn-warning btn-request">Crear requerimiento</button>
       </div>
       <mat-accordion class="p-1">
         <mat-expansion-panel
@@ -91,9 +87,6 @@
         >
           <mat-expansion-panel-header>
             <mat-panel-title> Self aware panel </mat-panel-title>
-            <mat-panel-description>
-              Currently I am {{ panelOpenState ? "open" : "closed" }}
-            </mat-panel-description>
           </mat-expansion-panel-header>
           <p>I'm visible because I am open</p>
         </mat-expansion-panel>
@@ -107,9 +100,6 @@
           >
             <mat-expansion-panel-header>
               <mat-panel-title> Self aware panel </mat-panel-title>
-              <mat-panel-description>
-                Currently I am {{ panelOpenState ? "open" : "closed" }}
-              </mat-panel-description>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
@@ -124,9 +114,6 @@
           >
             <mat-expansion-panel-header>
               <mat-panel-title> Self aware panel </mat-panel-title>
-              <mat-panel-description>
-                Currently I am {{ panelOpenState ? "open" : "closed" }}
-              </mat-panel-description>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
@@ -141,9 +128,6 @@
           >
             <mat-expansion-panel-header>
               <mat-panel-title> Self aware panel </mat-panel-title>
-              <mat-panel-description>
-                Currently I am {{ panelOpenState ? "open" : "closed" }}
-              </mat-panel-description>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>
@@ -158,9 +142,6 @@
           >
             <mat-expansion-panel-header>
               <mat-panel-title> Self aware panel </mat-panel-title>
-              <mat-panel-description>
-                Currently I am {{ panelOpenState ? "open" : "closed" }}
-              </mat-panel-description>
             </mat-expansion-panel-header>
             <p>I'm visible because I am open</p>
           </mat-expansion-panel>

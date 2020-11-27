@@ -1,24 +1,57 @@
 .text-navbar {
-    justify-content: center;
-    text-align: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .input-line {
-    width: 663px;
-    height: 48px;
-    border: 0;
-    border-bottom: 2px solid rgba(0, 0, 0, .2);
-    padding: 0;
-    font-size: 16px;
-    font-weight: 500;
-    background: none;
-    border-radius: 0;
-    color: #223254;
-    transition: all .15s ease;
-    outline: none;
-    
+  width: 663px;
+  height: 48px;
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 0;
+  font-size: 16px;
+  font-weight: 500;
+  background: none;
+  border-radius: 0;
+  color: #000000;
+  transition: all 0.15s ease;
+  outline: none;
 }
 
 .prueba {
-    display: inline-block;
+  display: inline-block;
+}
+
+a {
+  font-family: "Lato", sans-serif;
+  size: 15px;
+}
+
+.category {
+  color: #f5811f;
+}
+
+.back {
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
+  size: 15px;
+  color: #000000;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  size: 16px;
+  color: #7e7e7e;
+}
+
+.arrow-btn {
+  width: 48px;
+  height: 32px;
+  background: #dcdcdc;
+  border: 1px solid #aaaaaa;
+  box-sizing: border-box;
+}
+
+.pb-custom {
+  height: 8px;
 }
