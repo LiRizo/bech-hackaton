@@ -10,14 +10,10 @@
       </div>
       <div>
         <label>
-          <input list="browsers" name="myBrowser" placeholder="Escribe o selecciona una opción" /></label>
-          <datalist id="browsers">
-            <option value="Chrome">
-            <option value="Firefox">
-            <option value="Internet Explorer">
-            <option value="Opera">
-            <option value="Safari">
-            <option value="Microsoft Edge">
+          <input list="requestsNumbers" name="requests"  (change)="navigateTo($event.target.value)" placeholder="Ingresa el n° de tu solicitud" /></label>
+          <datalist id="requestsNumbers">
+            <option>165168151SDSD</option>
+            <option value="123410257EFFA">123410257EFFA</option>
           </datalist>
     </div>
 </div>

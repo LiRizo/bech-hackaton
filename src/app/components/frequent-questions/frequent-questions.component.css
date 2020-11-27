@@ -4,6 +4,7 @@
   .mat-form-field + .mat-form-field {
     margin-left: 8px;
   }
-/* .fq-s{
-
-} */
+ .fq-s{
+margin: auto;
+margin-bottom: 1rem;
+}
