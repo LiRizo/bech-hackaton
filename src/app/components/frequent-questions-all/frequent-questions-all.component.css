@@ -1,3 +1,27 @@
 .mat-form-field + .mat-form-field {
   margin-left: 8px;
 }
+
+.btn-request {
+  background: #f5811f;
+  border-radius: 30px;
+}
+
+.back-btn {
+  width: 40%;
+}
+
+.back {
+  margin-left: 10px;
+  font-family: "Lato", sans-serif;
+  size: 15px;
+  color: #000000;
+}
+
+.title-text {
+  width: 60%;
+}
+
+hr {
+  border: 0.5px solid #F5811F;
+}

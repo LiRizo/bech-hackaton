@@ -26,7 +26,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FormIntroComponent } from './components/form-intro/form-intro.component';
 import { ChatbotComponent } from './components/chatbot/chatbot.component';
 import { RequestsComponent } from './components/requests/requests.component';
-import { GifInfoComponent } from './components/gif-info/gif-info.component';
 import { NewRequestComponent } from './components/new-request/new-request.component';
 import { TrackingNumberComponent } from './components/tracking-number/tracking-number.component';
 import { FrequentQuestionsAllComponent } from './components/frequent-questions-all/frequent-questions-all.component';
@@ -42,7 +41,6 @@ import { FrequentQuestionsComponent } from './components/frequent-questions/freq
     FormIntroComponent,
     ChatbotComponent,
     RequestsComponent,
-    GifInfoComponent,
     NewRequestComponent,
     TrackingNumberComponent,
     HomeComponent,
