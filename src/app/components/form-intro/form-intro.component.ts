@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-form-intro',
@@ -7,6 +8,12 @@ import { Component } from '@angular/core';
 })
 export class FormIntroComponent {
 
-  constructor() { }
+  constructor(private router: Router) { }
+
+  navigateTo() {
+    // console.log('click');
+    this.router.navigateByUrl('/preguntasfrecuentes');
+
+  }
 
 }
