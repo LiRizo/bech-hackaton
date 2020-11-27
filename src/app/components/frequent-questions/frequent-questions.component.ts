@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-frequent-questions',
@@ -9,7 +10,12 @@ export class FrequentQuestionsComponent implements OnInit {
 
   panelOpenState = false;
 
-  constructor() { }
+  constructor(private router: Router) { }
+
+  navigateTo() {
+    // console.log('click');
+    this.router.navigateByUrl('/preguntasfrecuentesall');
+  }
 
   ngOnInit(): void {
   }
